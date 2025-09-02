@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio — Your Name</title>
+  <title>Portfolio — Chelshiya</title>
   <meta name="description" content="Modern developer portfolio: projects, skills, achievements, certificates, and downloadable CV." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -120,9 +120,9 @@
     <div class="container nav" role="navigation" aria-label="Main">
       <a class="brand" href="#home" aria-label="Go to homepage">
         <span class="logo" aria-hidden="true"><span>∎</span></span>
-        <span>Your Name</span>
+        <span>Chelshiya</span>
       </a>
-      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌓</button>
+      <!-- <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌓</button> -->
       <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="menu">☰ Menu</button>
       <nav>
         <ul id="menu">
@@ -136,7 +136,7 @@
       </nav>
       <div class="spacer"></div>
       <!-- Replace href with your actual CV file path and filename. The `download` attribute triggers download. -->
-      <a class="btn" id="downloadCV" href="assets/YourName-CV.pdf" download>
+      <a class="btn" id="downloadCV" href="ChelshiyaResume1.pdf" download>
         <span>⬇</span> Download CV
       </a>
     </div>
@@ -147,17 +147,17 @@
     <div class="container wrap">
       <div>
         <div class="eyebrow">Hello! I’m</div>
-        <h1>Your Name — Full‑Stack Developer</h1>
+        <h1>Chelshiya — Full-Stack Developer</h1>
         <p class="lead">I design and build fast, accessible web applications with modern JavaScript, thoughtful UX, and a love for clean, readable code.</p>
         <div class="cta">
           <a class="btn" href="#projects">View Projects</a>
-          <a class="btn ghost" href="mailto:you@email.com">Contact Me</a>
+          <a class="btn ghost" href="mailto:mgautamchelsea639@gmail.com">Contact Me</a>
         </div>
       </div>
       <div style="display:grid; place-items:center">
         <div class="avatar" aria-hidden="true">
           <!-- Replace with your photo -->
-          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop" alt="Your portrait"/>
+          <img src="pphoto.jpg" alt="Your portrait"/>
         </div>
       </div>
     </div>
@@ -175,100 +175,141 @@
       <div class="card">
         <h2>At a Glance</h2>
         <ul>
-          <li>📍 Location: City, Country</li>
-          <li>💼 Current Role: Your Role @ Company</li>
-          <li>🎓 Education: Your Degree</li>
-          <li>🗣️ Languages: English, Hindi (and more)</li>
+          <li>📍 Location: Punjab, India</li>
+          <li>🎓 Education: B.Tech in Computer Science(Undergraduate)</li>
+          <li>🗣️ Languages: English, Hindi</li>
         </ul>
       </div>
     </div>
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects" class="projects" aria-labelledby="projects-title">
-    <div class="container">
-      <h2 id="projects-title">Projects</h2>
-      <p class="sub">A few things I loved building recently.</p>
-      <div class="grid">
-        <article class="card project" aria-labelledby="p1-title">
-          <h3 id="p1-title">Food Ordering App (MERN)</h3>
-          <p>End‑to‑end food ordering platform with JWT auth, role‑based dashboards, real‑time order tracking, and Stripe payments.</p>
-          <div class="meta">
-            <span class="chip">MongoDB</span><span class="chip">Express</span><span class="chip">React</span><span class="chip">Node</span>
-          </div>
-          <div class="links">
-            <a class="btn ghost" href="#" aria-label="View live demo">Live</a>
-            <a class="btn ghost" href="#" aria-label="View source code">Code</a>
-          </div>
-        </article>
-        <article class="card project" aria-labelledby="p2-title">
-          <h3 id="p2-title">AI Water Quality Monitor</h3>
-          <p>Patent‑oriented system that ingests sensor streams and uses ML to predict contamination events with alerting and dashboards.</p>
-          <div class="meta">
-            <span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">PostgreSQL</span><span class="chip">Grafana</span>
-          </div>
-          <div class="links">
-            <a class="btn ghost" href="#">Live</a>
-            <a class="btn ghost" href="#">Code</a>
-          </div>
-        </article>
-        <article class="card project" aria-labelledby="p3-title">
-          <h3 id="p3-title">Micro‑Frontend Playground</h3>
-          <p>Stateful generator that creates, tweaks, and persists React components, with session auth and export tools.</p>
-          <div class="meta">
-            <span class="chip">Next.js</span><span class="chip">NestJS</span><span class="chip">Redis</span><span class="chip">OpenRouter</span>
-          </div>
-          <div class="links">
-            <a class="btn ghost" href="#">Live</a>
-            <a class="btn ghost" href="#">Code</a>
-          </div>
-        </article>
-      </div>
+<section id="projects" class="projects" aria-labelledby="projects-title">
+  <div class="container">
+    <h2 id="projects-title">Projects</h2>
+    <p class="sub">A few things I loved building recently.</p>
+    <div class="grid">
+
+      <!-- ServiceHub -->
+      <article class="card project" aria-labelledby="p1-title">
+        <h3 id="p1-title">ServiceHub (MERN + AI)</h3>
+        <p>
+          MERN-based service marketplace for neighborhood service booking with JWT auth, role-based permissions,
+          AI chatbot support, and real-time slot scheduling.
+        </p>
+        <div class="meta">
+          <span class="chip">React.js</span><span class="chip">Node.js</span>
+          <span class="chip">Express.js</span><span class="chip">MongoDB</span>
+          <span class="chip">Tailwind CSS</span><span class="chip">JWT</span>
+          <span class="chip">Google Gemini API</span>
+        </div>
+        <div class="links">
+          <a class="btn ghost" href="https://service-hub-frontend-git-main-chelshiyas-projects.vercel.app/">Live</a>
+          <a class="btn ghost" href="https://github.com/Chelshiyaa/ServiceHubBackend">Code</a>
+        </div>
+      </article>
+
+      <!-- LPU City -->
+      <article class="card project" aria-labelledby="p2-title">
+        <h3 id="p2-title">LPU City (React Website)</h3>
+        <p>
+          Educational website showcasing programs, campus life, and alumni experiences with routing,
+          smooth scroll, image gallery, and responsive design.
+        </p>
+        <div class="meta">
+          <span class="chip">React.js</span><span class="chip">JavaScript</span>
+          <span class="chip">HTML5</span><span class="chip">CSS3</span>
+          <span class="chip">React Router</span>
+        </div>
+        <div class="links">
+          <a class="btn ghost" href="https://lpucitybychelshiya.netlify.app/">Live</a>
+          <a class="btn ghost" href="https://github.com/Chelshiyaa/LPU_CITY">Code</a>
+        </div>
+      </article>
+
+      <!-- Food Delivery Website -->
+      <article class="card project" aria-labelledby="p3-title">
+        <h3 id="p3-title">Food Delivery Website (HTML/JS + DevOps)</h3>
+        <p>
+          Responsive online food ordering system with dynamic menus, cart management, real-time order placement,
+          Dockerized deployment, and Jenkins CI/CD automation.
+        </p>
+        <div class="meta">
+          <span class="chip">HTML</span><span class="chip">CSS</span>
+          <span class="chip">JavaScript</span><span class="chip">Docker</span>
+          <span class="chip">Jenkins</span><span class="chip">GitHub</span>
+        </div>
+        <div class="links">
+          <a class="btn ghost" href="https://chelshiyaa.github.io/FoodDel/">Live</a>
+          <a class="btn ghost" href="https://github.com/Chelshiyaa/FoodDel">Code</a>
+        </div>
+      </article>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- SKILLS -->
   <section id="skills" class="skills" aria-labelledby="skills-title">
-    <div class="container">
-      <h2 id="skills-title">Skills</h2>
-      <p class="sub">Stacks and tools I use most.</p>
-      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
-        <div class="card group">
-          <h3>Frontend</h3>
-          <div class="badges">
-            <span class="badge">React</span>
-            <span class="badge">Redux</span>
-            <span class="badge">TypeScript</span>
-            <span class="badge">Tailwind CSS</span>
-            <span class="badge">Vite</span>
-          </div>
-          <div class="meter" aria-label="Frontend proficiency"><span style="width:88%"></span></div>
+  <div class="container">
+    <h2 id="skills-title">Skills</h2>
+    <p class="sub">Stacks and tools I use most.</p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+      
+      <!-- Web Development -->
+      <div class="card group">
+        <h3>Web Development</h3>
+        <div class="badges">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">Bootstrap</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Node.js</span>
+          <span class="badge">React</span>
+          <span class="badge">Express.js</span>
+          <span class="badge">Laravel</span>
+          <span class="badge">PHP</span>
         </div>
-        <div class="card group">
-          <h3>Backend</h3>
-          <div class="badges">
-            <span class="badge">Node.js</span>
-            <span class="badge">Express</span>
-            <span class="badge">REST APIs</span>
-            <span class="badge">JWT/Auth</span>
-            <span class="badge">WebSockets</span>
-          </div>
-          <div class="meter" aria-label="Backend proficiency"><span style="width:84%"></span></div>
-        </div>
-        <div class="card group">
-          <h3>DevOps</h3>
-          <div class="badges">
-            <span class="badge">Docker</span>
-            <span class="badge">CI/CD</span>
-            <span class="badge">Linux</span>
-            <span class="badge">Nginx</span>
-            <span class="badge">Cloud</span>
-          </div>
-          <div class="meter" aria-label="DevOps proficiency"><span style="width:70%"></span></div>
+        <div class="meter" aria-label="Web Development proficiency">
+          <span style="width:88%"></span>
         </div>
       </div>
+
+      <!-- Programming -->
+      <div class="card group">
+        <h3>Programming</h3>
+        <div class="badges">
+          <span class="badge">C</span>
+          <span class="badge">C++</span>
+          <span class="badge">Java</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Python</span>
+        </div>
+        <div class="meter" aria-label="Programming proficiency">
+          <span style="width:82%"></span>
+        </div>
+      </div>
+
+      <!-- DevOps & Tools -->
+      <div class="card group">
+        <h3>DevOps & Tools</h3>
+        <div class="badges">
+          <span class="badge">MySQL</span>
+          <span class="badge">MongoDB</span>
+          <span class="badge">Git</span>
+          <span class="badge">Basic Linux</span>
+          <span class="badge">Docker</span>
+          <span class="badge">Jenkins</span>
+          <span class="badge">Puppet</span>
+        </div>
+        <div class="meter" aria-label="DevOps & Tools proficiency">
+          <span style="width:75%"></span>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- ACHIEVEMENTS -->
   <section id="achievements" aria-labelledby="achievements-title">
@@ -278,19 +319,19 @@
       <div class="card" style="padding:18px">
         <div class="timeline">
           <div class="milestone">
-            <time>2025</time>
-            <h3>2nd Place — University Debate</h3>
-            <p>Placed second in an inter‑college debate competition, speaking on AI ethics and accessibility.</p>
+            <time>2024</time>
+            <h3> Silver 3-star badge in C++</h3>
+            <p>Achieved a Silver 3-star badge in C++ programming, demonstrating advanced proficiency.</p>
           </div>
           <div class="milestone">
             <time>2024</time>
-            <h3>Patent Presentation — Water Quality AI</h3>
-            <p>Presented a patent for an AI‑powered real‑time water monitoring system, comparing against existing solutions.</p>
+            <h3>Problem Solving(Basic) Certificate</h3>
+            <p>Earned a certificate in Problem Solving (Basic) from GFG, showcasing foundational skills in algorithmic thinking.</p>
           </div>
           <div class="milestone">
-            <time>2023</time>
-            <h3>Top Company Internship</h3>
-            <p>Completed a competitive internship focusing on full‑stack microservices and observability.</p>
+            <time>2024</time>
+            <h3>Java (Basic) Certificate</h3>
+            <p>Earned a certificate in Java (Basic) from GFG, demonstrating foundational skills in Java programming.</p>
           </div>
         </div>
       </div>
@@ -305,35 +346,35 @@
       <div class="grid">
         <article class="card cert">
           <header>
-            <h3>DevOps Foundations</h3>
-            <time datetime="2025-06">Jun 2025</time>
+            <h3>Data Structures And Algorithms - Self-Paced</h3>
+            <time datetime="2025-06">Jul 2024</time>
+          </header>
+          <p class="issuer">Issuer: GFG</p>
+          <div class="links">
+            <a class="btn ghost" href="certificatedsa.pdf">View</a>
+            <a class="btn ghost" href="certificatedsa.pdf" download>Download</a>
+          </div>
+        </article>
+        <article class="card cert">
+          <header>
+            <h3>Server side JavaScript with Node.js</h3>
+            <time datetime="2024-11">May 2024</time>
           </header>
           <p class="issuer">Issuer: Coursera</p>
           <div class="links">
-            <a class="btn ghost" href="#">View</a>
-            <a class="btn ghost" href="#" download>Download</a>
+            <a class="btn ghost" href="servercer.pdf">View</a>
+            <a class="btn ghost" href="servercer.pdf" download>Download</a>
           </div>
         </article>
         <article class="card cert">
           <header>
-            <h3>React + TypeScript</h3>
-            <time datetime="2024-11">Nov 2024</time>
+            <h3>Cloud computing</h3>
+            <time datetime="2024-05">Nov 2024</time>
           </header>
-          <p class="issuer">Issuer: Udemy</p>
+          <p class="issuer">Issuer: NPTEL</p>
           <div class="links">
-            <a class="btn ghost" href="#">View</a>
-            <a class="btn ghost" href="#" download>Download</a>
-          </div>
-        </article>
-        <article class="card cert">
-          <header>
-            <h3>Python for Data</h3>
-            <time datetime="2024-05">May 2024</time>
-          </header>
-          <p class="issuer">Issuer: edX</p>
-          <div class="links">
-            <a class="btn ghost" href="#">View</a>
-            <a class="btn ghost" href="#" download>Download</a>
+            <a class="btn ghost" href="nptlcer.pdf">View</a>
+            <a class="btn ghost" href="nptlcer.pdf" download>Download</a>
           </div>
         </article>
       </div>
@@ -347,11 +388,11 @@
       <p class="sub">Let’s build something great together.</p>
       <div class="card">
         <div class="list">
-          <a href="mailto:you@email.com" aria-label="Email">
-            ✉️ Email — you@email.com
+          <a href="mailto:gautamchelsea639@gmail.com" aria-label="Email">
+            ✉️ Email — gautamchelsea639@gmail.com
           </a>
-          <a href="https://github.com/yourname" target="_blank" rel="noopener" aria-label="GitHub profile">🐙 GitHub — @yourname</a>
-          <a href="https://www.linkedin.com/in/yourname" target="_blank" rel="noopener" aria-label="LinkedIn profile">💼 LinkedIn — /in/yourname</a>
+          <a href="https://github.com/Chelshiyaa" target="_blank" rel="noopener" aria-label="GitHub profile">🐙 GitHub — @Chelshiyaa</a>
+          <a href="https://www.linkedin.com/in/Chelshiya" target="_blank" rel="noopener" aria-label="LinkedIn profile">💼 LinkedIn — /in/Chelshiya</a>
         </div>
       </div>
     </div>
